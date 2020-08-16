@@ -36,5 +36,44 @@ header nav li a:hover{
 
 /* container */
 #container {
-    
+    width: 585px;
+    height: 335px;
+    margin: 50px auto;
+    text-align: center;
 }
+#logo-container{
+    position: relative;
+    width: 500px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+#container input[type='search']{
+    border-radius: 22px;
+    height: 2.8rem;
+    margin: 0 auto ;
+    padding: 0 0 0 15px;
+    font-size: 16px;
+    border: solid 1px #ddd;
+    width: 585px;
+    outline-color: #f2f2f2;
+}
+
+input[type="search"]:hover{
+    border: solid 1px #aaa;
+}
+
+#container form>input[type="submit"]{
+    margin: 30px 5px 4px 150px;
+}
+
+#container form>input[type="submit"], #container form>input[type="button"]{
+    width: 125px;
+    height: 35px;
+    text-transform: capitalize;
+    color: #757575;
+    background: #f2f2f2;
+    border: solid 1px #f2f2f2;    
+    font-weight: bold;
+}
+
