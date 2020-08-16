@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #222;
+}
+
+/* header */
+header nav li {
+    padding:8px;
+    display: inline;
+}
+
+header nav {
+    text-align: right;
+    padding: 1.2rem;
+
+}
+
+header nav li a{
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+header nav li a:visited, header nav li a:link{
+    color: #000;
+}
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+/* container */
+#container {
+    
+}
