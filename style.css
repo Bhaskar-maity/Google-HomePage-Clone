@@ -68,6 +68,7 @@ input[type="search"]:hover{
 }
 
 #container form>input[type="submit"], #container form>input[type="button"]{
+    margin: 30px auto;
     width: 125px;
     height: 35px;
     text-transform: capitalize;
@@ -77,3 +78,34 @@ input[type="search"]:hover{
     font-weight: bold;
 }
 
+/* footer */
+
+footer nav ul li{
+    display: inline;
+    padding: 15px;
+}
+footer {
+    background: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+#left-elements{
+    float: left;
+    padding: 12px 10px;
+}
+
+#right-elements{
+    float: right;
+    padding: 12px 10px;
+}
+
+.clearfix li a {
+    text-decoration: none;
+}
+
+.clearfix a:hover {
+    text-decoration: underline;
+}
